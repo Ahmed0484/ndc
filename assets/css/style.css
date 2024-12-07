@@ -4,6 +4,8 @@ body{
     font-family: 'Noto Kufi Arabic','Segoe UI', Tahoma, sans-serif;
     line-height: 1.7;
     color: #6a6a6a;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -16,6 +18,7 @@ a{
     text-decoration: none;
     transition: all 0.4s ease;
     font-weight: 500;
+   
 }
 
 a:hover{
@@ -25,19 +28,12 @@ a:hover{
 
 img{
     width: 100%;
-   
 }
 
 section{
     padding: 60px 0;
 }
 
-#hero{
-    /* background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/cover.jpg);
-    background-position: center;
-    background-size: cover;
-    background-size:1200px 700px; */
-}
 
 #about{
     position: relative;
@@ -90,16 +86,19 @@ section{
 
 
 .navbar a{
-    color:rgb(98, 193,77);
-    font-weight: 500;
+    color:rgb(61, 96,178);
+    font-weight: 700;
    
 }
 
 .navbar a:hover{
     color: rgb(61, 96,178);
-    font-weight: 900;
+    font-weight:1000;
 }
 
+.s-color{
+   background-color:  rgb(98, 193,77)  ;
+}
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
